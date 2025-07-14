@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MoodSpace</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>MoodSpace 🧘‍♀️</h1>
+    <p>Welcome, {{ username }}! <a href="/logout">Logout</a></p>
+
+    <form method="POST" action="/save_mood">
+  <div class="mood-selector">
+    <p>How are you feeling today?</p>
+
+    <!-- Mood Dropdown -->
+    <label>Select your mood:</label><br>
+    <select name="mood" required>
+      <option value="">-- Select Mood --</option>
+      <option value="😊">😊 Happy</option>
+      <option value="😐">😐 Neutral</option>
+      <option value="😢">😢 Sad</option>
+      <option value="😡">😡 Angry</option>
+      <option value="😴">😴 Tired</option>
+      <option value="❤️">❤️ Love</option>
+    </select><br><br>
+
+    <!-- Note -->
+    <textarea name="note" placeholder="How are you feeling?" required></textarea><br><br>
+
+    <!-- Date -->
+    <input type="hidden" name="date" value="{{ now }}">
+
+    <!-- Submit -->
+    <button class="save-btn" type="submit">Save Mood</button>
+  </div>
+</form>
+
+
+    <div class="history">
+  <h2>Your Mood History</h2>
+  <ul>
+    {% for entry in moods|reverse %}
+      <li style="margin-bottom: 20px;">
+        <strong>{{ entry.date }}</strong> — 
+        <span style="font-size: 20px;">{{ entry.mood }}</span><br>
+        <em>{{ entry.note }}</em><br>
+
+        {% if entry.suggestion %}
+          <p style="color: green; font-style: italic;">
+            💡 <strong>Suggestion:</strong> {{ entry.suggestion }}
+          </p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+  </div>
+</body>
+</html>

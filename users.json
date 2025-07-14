@@ -1,0 +1,96 @@
+{
+  "bindu": {
+    "password": "12345",
+    "moods": [
+      {
+        "mood": "Happy,\ud83d\ude0a",
+        "note": "",
+        "date": "2025-07-14 11:10:39"
+      },
+      {
+        "id": "112625c6-8b0f-40c1-8be8-8b27b1cdf113",
+        "mood": "Happy,\ud83d\ude0a",
+        "note": "",
+        "date": "2025-07-14 11:16:57",
+        "suggestion": ""
+      },
+      {
+        "id": "d2a58937-053b-4a3d-850f-4228a0e303eb",
+        "mood": "Neutral,\ud83d\ude10",
+        "note": "",
+        "date": "2025-07-14 11:17:00",
+        "suggestion": ""
+      },
+      {
+        "id": "9dfadd19-2c29-4bcf-9fcd-75141164881b",
+        "mood": "Sad,\ud83d\ude22",
+        "note": "",
+        "date": "2025-07-14 11:17:01",
+        "suggestion": ""
+      },
+      {
+        "id": "fef619cb-99f9-4579-ac22-57e64af04a73",
+        "mood": "Angry,\ud83d\ude21",
+        "note": "",
+        "date": "2025-07-14 11:17:05",
+        "suggestion": ""
+      },
+      {
+        "id": "5ca6e954-9c29-41b7-8a81-4f5c08395683",
+        "mood": "Tired,\ud83d\ude34",
+        "note": "",
+        "date": "2025-07-14 11:17:07",
+        "suggestion": ""
+      },
+      {
+        "id": "168205f8-05f4-483c-b1a2-085f62860824",
+        "mood": "Love,\u2764\ufe0f",
+        "note": "",
+        "date": "2025-07-14 11:17:08",
+        "suggestion": ""
+      },
+      {
+        "id": "d3ccc84b-b025-46d9-90d0-43eb587b4e4c",
+        "mood": "\ud83d\ude0a",
+        "note": "happy\r\n",
+        "date": "2025-07-14 11:21:45",
+        "suggestion": "Yay! Keep smiling and spread those good vibes today! \u2600\ufe0f"
+      },
+      {
+        "id": "6bd12799-ef89-48a3-8676-2c3706b3b5b0",
+        "mood": "\ud83d\ude10",
+        "note": "no mood to do anything\r\n",
+        "date": "2025-07-14 11:22:02",
+        "suggestion": "Maybe a small distraction would help. Try drawing, journaling, or a funny video! \ud83c\udfa8\ud83d\udcd2"
+      },
+      {
+        "id": "79e189e8-7183-43b6-9e9d-4c8db4b414ae",
+        "mood": "\ud83d\ude22",
+        "note": "alone in home\r\n",
+        "date": "2025-07-14 11:22:19",
+        "suggestion": "It's okay to feel down sometimes. Try listening to your favorite song or talking to a friend \ud83d\udcac"
+      },
+      {
+        "id": "6ab03108-107e-49f2-8e92-f424ad769cae",
+        "mood": "\ud83d\ude21",
+        "note": ".",
+        "date": "2025-07-14 11:22:33",
+        "suggestion": "Take a deep breath. Maybe try a short walk or write down what made you upset. \ud83e\uddd8\u200d\u2640\ufe0f"
+      },
+      {
+        "id": "0f33047c-4097-4d14-ab21-29d88c4c9eae",
+        "mood": "\ud83d\ude34",
+        "note": ".",
+        "date": "2025-07-14 11:22:45",
+        "suggestion": "You might just need some rest. Take a nap or stretch for 5 minutes \ud83d\ude34\ud83d\udca4"
+      },
+      {
+        "id": "5b0c5b56-f5ae-4899-92c4-48654903a182",
+        "mood": "\u2764\ufe0f",
+        "note": "happy",
+        "date": "2025-07-14 11:22:53",
+        "suggestion": "Love is beautiful. Maybe tell someone how much they mean to you \ud83d\udc8c"
+      }
+    ]
+  }
+}
